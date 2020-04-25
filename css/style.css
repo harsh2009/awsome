@@ -562,21 +562,24 @@ footer {
         width: 33.33%;
     }
 
-    .form{
+    .form {
         float: none;
         text-align: center;
         width: 100%;
     }
-    .add{
+
+    .add {
         float: none;
 
     }
-    .form-input{
+
+    .form-input {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
-    .btn-send{
+
+    .btn-send {
         width: 100%;
     }
 
@@ -588,7 +591,7 @@ footer {
         float: none;
     }
 
-    
+
     .feature-headding h2 {
         font-size: 100px;
         text-align: center;
@@ -599,7 +602,8 @@ footer {
         margin-top: 15px;
         float: none;
     }
-    .li-feature h3{
+
+    .li-feature h3 {
         margin-bottom: 10px;
 
     }
@@ -612,25 +616,34 @@ footer {
         width: 80%;
     }
 
-    .col-4-port {
+    .col-4-port,
+    .col-4-stats {
         width: 50%;
         text-align: center;
     }
+
+    .col-4-stats {
+        margin-top: 0;
+    }
+
 }
-.ul-portfolio li a{
-    margin: 15px 10px;
-}
+
+
 
 
 @media only screen and (max-width: 630px) {
-    .col-4-port {
+
+    .col-4-port,
+    .col-4-stats {
         width: 100%;
         text-align: center;
     }
 }
+
 .service {
     width: 100%;
 }
-.service p{
+
+.service p {
     width: 100%;
 }
