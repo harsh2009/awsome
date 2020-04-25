@@ -590,6 +590,9 @@ footer {
         width: 100%;
         float: none;
     }
+    .ul-portfolio li a{
+        margin: 10px 10px;
+    }
 
 
     .feature-headding h2 {
