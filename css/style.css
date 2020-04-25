@@ -567,6 +567,18 @@ footer {
         text-align: center;
         width: 100%;
     }
+    .add{
+        float: none;
+
+    }
+    .form-input{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-send{
+        width: 100%;
+    }
 
 }
 
@@ -574,9 +586,9 @@ footer {
     .feature-headding {
         width: 100%;
         float: none;
-
     }
 
+    
     .feature-headding h2 {
         font-size: 100px;
         text-align: center;
@@ -586,6 +598,10 @@ footer {
         width: 90%;
         margin-top: 15px;
         float: none;
+    }
+    .li-feature h3{
+        margin-bottom: 10px;
+
     }
 
     .do {
@@ -601,12 +617,20 @@ footer {
         text-align: center;
     }
 }
+.ul-portfolio li a{
+    margin: 15px 10px;
+}
+
 
 @media only screen and (max-width: 630px) {
     .col-4-port {
         width: 100%;
         text-align: center;
-
-
     }
+}
+.service {
+    width: 100%;
+}
+.service p{
+    width: 100%;
 }
