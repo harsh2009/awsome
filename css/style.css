@@ -614,7 +614,9 @@ footer {
     .do {
         display: inline;
     }
-
+    #services{
+        background-image: none;
+    }
     .service {
         width: 80%;
     }
