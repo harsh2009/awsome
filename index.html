@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>awsome</title>
+    <link rel="stylesheet" href="css/animate.css">
     <!-- google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7e2e7bef6f.js" crossorigin="anonymous"></script>
@@ -22,6 +23,7 @@
                 </div>
                 <!-- NAVBAR -->
                 <nav class="navbar right-align">
+                    <a class="burger-nav"></a>
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">service</a></li>
@@ -40,10 +42,10 @@
     <!-- FEATURE SECTION -->
     <section id="feature">
         <div class="container clearfix">
-            <div class="feature-headding left-align">
+            <div class="feature-headding left-align  wow fadeInLeft">
                 <h2>what we <span class="do"> do</span></h2>
             </div>
-            <div class="feature-detail right-align">
+            <div class="feature-detail right-align wow fadeInRight">
                 <ul>
                     <li class="li-feature">
                         <img src="img/web-design-icon.png" alt="" class="large-icons left-align">
@@ -77,7 +79,7 @@
     <!-- SERVICES SECTION -->
     <section id="services" class="clear-float">
         <div class="container">
-            <div class="service">
+            <div class="service wow fadeInUp">
                 <h2>Exceptional Customer Service</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor Lorem ipsum dolor sit amet
@@ -99,7 +101,7 @@
                 <li><a href="#">Photograghy</a></li>
                 <li><a href="#">Branding</a></li>
             </ul>
-            <div class="galary clearfix">
+            <div class="galary clearfix wow zoomIn">
                 <div class="row">
                     <div class="col-4-port "><img src="img/item1.png" alt=""></div>
                     <div class="col-4-port"><img src="img/item2.png" alt=""></div>
@@ -119,9 +121,9 @@
     <section id="stats">
         <div class="container clearfix">
             <div class="sc">
-                <div class="col-4-stats">
+                <div class="col-4-stats ">
                     <img src="img/user-icon.png" alt="">
-                    <h2>3,800+</h2>
+                    <h2 class="">3,800+</h2>
                     <h3>Satisfied Clients</h3>
                 </div>
                 <div class="col-4-stats">
@@ -192,7 +194,9 @@
             </ul>
         </div>
     </section>
-
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

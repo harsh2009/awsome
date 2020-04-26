@@ -586,11 +586,68 @@ footer {
 }
 
 @media only screen and (max-width: 910px) {
+    .navbar {
+        overflow: hidden;
+        position: absolute;
+        right: 30px;
+        top: 77px;
+        display: block;
+        z-index: 10;
+    }
+
+    .burger-nav {
+        background-image: url("../img/hamburger.png");
+        background-repeat: no-repeat;
+        width: 100%;
+        text-align: center;
+        display: block;
+        height: 33px;
+        width: 40px;
+        cursor: pointer;
+        float: right;
+        margin-bottom: 14px;
+
+    }
+
+    .container nav ul {
+        height: 0;
+        overflow: hidden;
+    }
+
+    .container nav ul.open {
+        height: auto;
+        clear: both;
+    }
+
+    .container nav ul li {
+        display: block;
+        font: none;
+        text-align: right;
+        width: auto;
+        margin: 0;
+    }
+
+    .container nav ul li a {
+        display: block;
+        background-color: #fff;
+        color: #503392;
+        padding: 10px 21px;
+
+        margin: 0;
+        z-index: 10;
+    }
+
+    .container nav ul li a:hover {
+        border: none;
+    }
+
+
     .feature-headding {
         width: 100%;
         float: none;
     }
-    .ul-portfolio li a{
+
+    .ul-portfolio li a {
         margin: 10px 10px;
     }
 
@@ -614,9 +671,11 @@ footer {
     .do {
         display: inline;
     }
-    #services{
+
+    #services {
         background-image: none;
     }
+
     .service {
         width: 80%;
     }
@@ -643,12 +702,12 @@ footer {
         width: 100%;
         text-align: center;
     }
-}
 
-.service {
-    width: 100%;
-}
+    .service {
+        width: 100%;
+    }
 
-.service p {
-    width: 100%;
+    .service p {
+        width: 100%;
+    }
 }
