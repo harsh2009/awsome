@@ -169,7 +169,6 @@ table {
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    font-style: 14px;
     font-size: 18px;
 }
 
@@ -177,6 +176,8 @@ a {
     text-decoration: none;
     color: #000;
 }
+
+/* HERO SECTION  */
 
 #hero {
     background-image: url("../img/hero-bg.png");
