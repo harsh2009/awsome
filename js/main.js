@@ -9,12 +9,4 @@ $(document).ready(function () {
 
     });
 
-
-
-
-    
-
-
-
-
 });
